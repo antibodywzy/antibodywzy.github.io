@@ -15,63 +15,69 @@ contact: #联系方式连接等3~5行
 - text: "+31 0651331700"
   href: 'tel:+31 0651331700'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
+- text: "www.linkedin.com/in/ziyuan-wang111"
+  href: 'www.linkedin.com/in/ziyuan-wang111'
+  icon: 'icons/iconmonstr-linkedin-3.svg'
 - text: "GitHubID"
-  href: 'https://github.com/NewFuture'
+  href: 'https://github.com/antibodywzy'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-  # - text: "地址"
-  #   icon: "icons/location.svg"
+- text: "Amsterdam, Netherlands"
+  icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: Education #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: Utrecht University
+    duration: "Sep 2021 - Jun 2023"
+    sub: Master's degree, Computing Science
+    # detail: 
+  - title: Beijing University of Posts and Telecommunications
+    duration: Aug 2017 - Jun 2021
+    sub: Bechelor's degree, Electronic science and technology
+    # detail: Master Bachelor of Computer Science & Technology.
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+# - type: skills
+#   # name: "技能"
+#   content:
+#   - title: 编程语言
+#     items: #itmems 可以小块的方式显示
+#     - 汉语
+#     - 语言2
+#     - 语言3
+#   - title: Skill Group
+#     summary: Consectetur, Adipiscing, Elit
 
-- type: experience
-  name: 经验
+- type: Working Experience
+  name: Working Experience
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: Software Developer Internship
+    sub: Shell
+    duration: "Oct 2022 - Present"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - more
+    summary: Position and job summary 
+    detail: I joined the AutoSum project team as an intern and responsible for implementing new features to the web tools.
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: Data Science Internship
+    sub: Shell
+    duration: Jul 2022 - Aug 2022
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - more
+    summary: Position and job summary 
+    detail: Participated in a project on modeling for electric energy transmission. Responsible for building the pipeline, built the backend platform using AWS, built the web using Plotly. The project has successfully optimized the energy system in the ETCA offices of Amsterdam.
+  - title: Software Developer Internship
+    sub: TAL IT Group
+    duration: Mar 2021 - Jun 2021
+    tags:
+    - more
+    summary: Position and job summary 
+    detail: As a summer trainee, internship in the company as a backend engineer.
 
-- type: projects
-  name: Projects
+  name: Project Experience
   content:
   - title: 项目名称
     duration: xxxx年xx月 - yyyy年yy月
@@ -111,10 +117,10 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  - text: "MY CV"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+  - text: "Made by ZiYuan_Wang"
+    href: "https://antibodywzy.github.io/"
 
 #页面额外js脚本，如xx统计
 scripts:
