@@ -32,11 +32,12 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: Utrecht University
     duration: "Sep 2021 - Jun 2023"
-    sub: Master's degree, Computing Science
-    # detail: 
+    sub: Master's degree
+    detail: MS.c in Computing Science
   - title: Beijing University of Posts and Telecommunications
     duration: Aug 2017 - Jun 2021
-    sub: Bechelor's degree, Electronic science and technology
+    sub: Bechelor's degree
+    detail: BS.c in Electronic science and technology
     # detail: Master Bachelor of Computer Science & Technology.
 
 # - type: skills
